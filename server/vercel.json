@@ -1,6 +1,6 @@
 {
-    "version" : 2,
     "name" : "server",
+    "version" : 2,
     "builds" : [
         {
             "src" : "./index.js",
@@ -9,7 +9,7 @@
     ],
     "routes" : [
         {
-            "src" : "./(.*)",
+            "src" : "/(.*)",
             "dest" : "/"
         }
     ]
